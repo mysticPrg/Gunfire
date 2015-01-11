@@ -22,8 +22,8 @@ define(['jquery', 'Config'], function ($, Config) {
 			x: Math.cos(angle),
 			y: Math.sin(angle)
 		};
-		this.pos.x += this.force.x * 30;
-		this.pos.y += this.force.y * 30;
+		this.pos.x += this.force.x * 40;
+		this.pos.y += this.force.y * 40;
 
 		this.size = 10;
 		this.center = {
