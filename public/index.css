@@ -1,0 +1,56 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: dimgray;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#game {
+    position: absolute;
+    cursor: crosshair;
+    /*border-width: 20px;*/
+    /*border-color: darkslategrey;*/
+    /*border-style: double;*/
+    /*border-radius: 20px;*/
+    z-index: 50;
+}
+
+#pause {
+    position: absolute;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 10;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#particles {
+    position: absolute;
+    z-index: 1;
+}
+
+.particle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #4bb464;
+    clip-path: inset(0px, 0px, 800px, 500px);
+    z-index: 1;
+}
+
+#stage {
+    position: absolute;
+    background: linear-gradient(#324d4d, #272727);
+    z-index: 0;
+}
+
+.bullet {
+    z-index: 100;
+    background-color : white;
+    position: absolute;
+    border-radius: 50%;
+}
